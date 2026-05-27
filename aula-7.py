@@ -2,8 +2,7 @@ print('Exercício 1')
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
 print('A soma dos números é igual a {}'.format(n1+n2)) 
-
-print(20*'-')
+print(40*'-')
 
 print('Exercício 2')
 n1 = int(input('Digite um número: '))
@@ -15,9 +14,21 @@ di = n1//n2
 e = n1**n2
 print('A soma é {}, a multiplicação é {} e a divisão é {:.3f}'.format(s, m, d), end=' - ') #o {:.3f} formata a saída para 3 casas decimais - F de números flutuantes. End =' ' é para não quebrar a linha, ou seja, continuar na mesma linha
 print('A divisão inteira é {} e a potência é {}'.format(di, e))
+print(40*'-')
 
+print('Exercício 3')
+n1 = int(input('Digite um número: '))
+ant = n1-1
+suc = n1+1
+print('O antecessor de {} é {} e o sucessor é {}'.format(n1,ant,suc))
+print(40*'-')
 
-
+print('Exercício 4')
+n1 = int(input('Digite um número: '))
+d = n1*2
+t = n1*3
+r = n1**1/2
+print('O dobro de {} é {}, o triplo é {} e a raiz quadrada é {:.2f}'.format(n1,d,t,r))
 
 
 
