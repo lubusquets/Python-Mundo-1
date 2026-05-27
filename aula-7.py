@@ -29,6 +29,24 @@ d = n1*2
 t = n1*3
 r = n1**1/2
 print('O dobro de {} é {}, o triplo é {} e a raiz quadrada é {:.2f}'.format(n1,d,t,r))
+print(40*'-')
+
+print('Exercício 5') # calculadora de média
+n = input('Nome do aluno: ')
+n1 = float(input('Digite a primeira nota: '))
+n2 = float(input('Digite a segunda nota: '))
+m = (n1+n2)/2
+print('A média de {} é {:.1f}'.format(n,m))
+print(40*'-')
+
+print('Exercício 6')
+m = float(input('Digite a medida em metros: '))
+cm = m*100
+mm = m*1000
+print('A medida de{}m corresponde a {} centímetros e {} milímetros'.format(m,cm,mm))
+print(40*'-')
+
+
 
 
 
