@@ -1,3 +1,6 @@
+print('          TABUADA     ')
+print(30*'=')
+
 n = int(input('Digite um número inteiro: '))
 print('{} x 1 = {}'.format(n,n*1))
 print('{} x 2 = {}'.format(n,n*2))
