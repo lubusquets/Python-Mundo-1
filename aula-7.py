@@ -21,6 +21,9 @@ n1 = int(input('Digite um número: '))
 ant = n1-1
 suc = n1+1
 print('O antecessor de {} é {} e o sucessor é {}'.format(n1,ant,suc))
+#ATENÇÃO - SÓ REDUZA A QUANTIDADE DE VARIÁVEIS se não for utilizar posteriormente (isso economiza memória no programa), então faça:
+#n1 = int(input('Digite um número: '))
+#print('O antecessor de {} é {} e o sucessor é {}'.format(n1, n1-1, n1+1))
 print(40*'-')
 
 print('Exercício 4')
@@ -39,7 +42,7 @@ m = (n1+n2)/2
 print('A média de {} é {:.1f}'.format(n,m))
 print(40*'-')
 
-print('Exercício 6')
+print('Exercício 6') #conversor de medidas
 m = float(input('Digite a medida em metros: '))
 cm = m*100
 mm = m*1000
