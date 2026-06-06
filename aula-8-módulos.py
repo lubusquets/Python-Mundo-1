@@ -20,3 +20,8 @@ int = trunc(num) #ou int(num) para obter a parte inteira do número
 print('O número {} tem a a parte inteira {}'.format(num, int))
 print(40*'-')
 
+#ou
+#import math
+#num = float(input("Digite um número decimal: "))
+#print('O número {} tem a a parte inteira {}'.format(num, math.trunc(num)))
+
