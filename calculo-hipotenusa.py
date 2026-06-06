@@ -4,6 +4,12 @@ c_adjacente = float(input("Digite o valor do cateto adjacente: "))
 h = math.hypot(c_oposto, c_adjacente)
 print('A hipotenusa é igual a {:.2f}'.format(h))
 
+'''ou
+co = float(input("Digite o valor do cateto oposto: "))
+ca = float(input("Digite o valor do cateto adjacente: "))
+h = (co**2 + ca**2)**1/2
+print('A hipotenusa é igual a {:.2f}'.format(h))
+''' 
 print(40*'-')
 #cálculo de seno, cosseno e tangente
 from math import radians, sin, cos, tan
