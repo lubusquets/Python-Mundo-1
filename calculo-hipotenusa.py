@@ -12,6 +12,7 @@ print('A hipotenusa é igual a {:.2f}'.format(h))
 ''' 
 print(40*'-')
 #cálculo de seno, cosseno e tangente
+
 from math import radians, sin, cos, tan
 angulo = float(input("Digite o valor do ângulo: "))
 seno = sin(radians(angulo))
