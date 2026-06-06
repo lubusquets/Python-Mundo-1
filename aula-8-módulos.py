@@ -16,12 +16,18 @@ print(40 * '-')
 
 from math import trunc
 num = float(input("Digite um número decimal: "))
-int = trunc(num) #ou int(num) para obter a parte inteira do número
-print('O número {} tem a a parte inteira {}'.format(num, int))
+print('O número {} tem a a parte inteira {}'.format(num, trunc(num)))
 print(40*'-')
 
-#ou
-#import math
-#num = float(input("Digite um número decimal: "))
-#print('O número {} tem a a parte inteira {}'.format(num, math.trunc(num)))
+'''ou
+import math
+num = float(input("Digite um número decimal: "))
+print('O número {} tem a a parte inteira {}'.format(num, math.trunc(num)))
+
+ou ainda
+num = float(input("Digite um número decimal: "))
+print('O número {} tem a a parte inteira {}'.format(num, int(num)))'''
+
+
+
 
