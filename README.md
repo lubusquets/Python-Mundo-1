@@ -1,2 +1,2 @@
 # Python-Mundo-1
-Curso em vídeo
+Curso introdutório a linguagem de programação Python do Curso em Vídeo.
