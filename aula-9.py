@@ -25,6 +25,10 @@ print(frase.strip()) #imprime a frase sem os espaços no início e no final
 print(frase.rstrip()) #imprime a frase sem os espaços no final
 print(frase.lstrip()) #imprime a frase sem os espaços no início
 print(frase.split()) #imprime a frase dividida em uma lista de palavras
+dividido = frase.split() #cria uma lista de palavras
+print(dividido[0]) #imprime a primeira palavra da lista
+print(dividido[2][3]) #imprime a terceira letra da lista
+
 print('-'.join(frase)) #imprime a frase com os caracteres '-' entre as letras
 print(len(frase)) #imprime o tamanho da frase, contando os espaços
 print(len(frase.strip())) #imprime o tamanho da frase sem contar os espaços no início e no final
