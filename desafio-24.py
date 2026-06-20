@@ -13,17 +13,23 @@ print('SILVA' in nome.upper())
 print(50*'-')
 '''Desafio 26 - Crie um programa que leia uma frase e diga quantas vezes aparece a letra "A", em que posição ela aparece a primeira vez e em que posição ela aparece a última vez.'''
 
-frase = str(input('Digite uma frase: ')).strip()
-print('A letra "A" aparece {} vezes na frase.'.format(frase.upper().count('A')))
-print('A letra "A" aparece pela primeira vez na posição {}.'.format(frase.upper().find('A') + 1))
-print('A letra "A" aparece pela última vez na posição {}.'.format(frase.upper().rfind('A') + 1))
+frase = str(input('Digite uma frase: ')).strip().upper()
+print('A letra "A" aparece {} vezes na frase.'.format(frase.count('A')))
+print('A letra "A" aparece pela primeira vez na posição {}.'.format(frase.find('A') + 1))
+print('A letra "A" aparece pela última vez na posição {}.'.format(frase.rfind('A') + 1))
+
+'''ou de maneira maos somples:
+frase = str(onput('Digite uma frase: ')).strip().upper()
+print('A letra "A" aparece {} vezes na frase.'.format(frase.count('A')))
+print('A letra "A" aparece pela primeira vez na posição {}.'.format(frase.find('A') + 1))
+print('A letra "A" aparece pela última vez na posição {}.'.format(frase.rfind('A') + 1))
+'''
 
 print(50*'-')
 '''Desafio 27 - Crie um programa que leia o nome completo de uma pessoa e mostre:   - o primeiro nome   - o último nome'''  
 
 nome = str(input('Digite seu nome completo: ')).strip()
 dividido = nome.split()
-print('Seu nome completo é: {}'.format(nome))
 print('Seu primeiro nome é: {}'.format(dividido[0]))
 print('Seu último nome é: {}'.format(dividido[len(dividido)-1]))
 
