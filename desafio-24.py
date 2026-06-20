@@ -20,3 +20,10 @@ print('A letra "A" aparece pela última vez na posição {}.'.format(frase.upper
 
 print(50*'-')
 '''Desafio 27 - Crie um programa que leia o nome completo de uma pessoa e mostre:   - o primeiro nome   - o último nome'''  
+
+nome = str(input('Digite seu nome completo: ')).strip()
+dividido = nome.split()
+print('Seu nome completo é: {}'.format(nome))
+print('Seu primeiro nome é: {}'.format(dividido[0]))
+print('Seu último nome é: {}'.format(dividido[len(dividido)-1]))
+
